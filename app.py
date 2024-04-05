@@ -127,43 +127,43 @@ def recommend_courses():
         st.write(recommended_courses)
 
 #Function for chatbot
-# def chatbot():
-#     st.header("Chatbot for Asking Doubts")
-    
-#     #Projecting description
-#     st.write("Welcome to our Chatbot for Asking Doubts! You can ask any questions related to your studies, and the chatbot will provide responses to help clarify your doubts.")
-
-#     #Loading pre-trained conversational model
-#     chatbot_model = pipeline("conversational")
-
-#     #Displaying chat interface
-#     user_input = st.text_input("You:", "")
-#     if user_input:
-#         conversation = [{'role': 'user', 'content': user_input}]
-#         bot_response = chatbot_model(conversation)
-#         st.write("Bot response:", bot_response)
-
-# Function for chatbot
 def chatbot():
     st.header("Chatbot for Asking Doubts")
     
-    # Projecting description
+    #Projecting description
     st.write("Welcome to our Chatbot for Asking Doubts! You can ask any questions related to your studies, and the chatbot will provide responses to help clarify your doubts.")
 
-    # Loading pre-trained conversational model
+    #Loading pre-trained conversational model
     chatbot_model = pipeline("conversational")
 
-    # Displaying chat interface
+    #Displaying chat interface
     user_input = st.text_input("You:", "")
     if user_input:
-        # Convert the user input into the format expected by the chatbot model
-        conversation = [{"prompt": user_input, "max_length": 100}]
+        conversation = [{'role': 'user', 'content': user_input}]
+        bot_response = chatbot_model(conversation)
+        st.write("Bot response:", bot_response)
+
+# Function for chatbot
+# def chatbot():
+#     st.header("Chatbot for Asking Doubts")
+    
+#     # Projecting description
+#     st.write("Welcome to our Chatbot for Asking Doubts! You can ask any questions related to your studies, and the chatbot will provide responses to help clarify your doubts.")
+
+#     # Loading pre-trained conversational model
+#     chatbot_model = pipeline("conversational")
+
+#     # Displaying chat interface
+#     user_input = st.text_input("You:", "")
+#     if user_input:
+#         # Convert the user input into the format expected by the chatbot model
+#         conversation = [{"prompt": user_input, "max_length": 100}]
         
-        # Get response from the chatbot model
-        bot_response = chatbot_model(conversation)[0]["generated_text"]
+#         # Get response from the chatbot model
+#         bot_response = chatbot_model(conversation)[0]["generated_text"]
         
-        # Display the bot response
-        st.text_area("Bot:", value=bot_response, height=200)
+#         # Display the bot response
+#         st.text_area("Bot:", value=bot_response, height=200)
         
 #Function to preprocess data and train model
 def train_model():
