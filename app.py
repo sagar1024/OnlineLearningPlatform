@@ -146,22 +146,17 @@ def chatbot():
 # Function for chatbot
 # def chatbot():
 #     st.header("Chatbot for Asking Doubts")
-    
 #     # Projecting description
 #     st.write("Welcome to our Chatbot for Asking Doubts! You can ask any questions related to your studies, and the chatbot will provide responses to help clarify your doubts.")
-
 #     # Loading pre-trained conversational model
 #     chatbot_model = pipeline("conversational")
-
 #     # Displaying chat interface
 #     user_input = st.text_input("You:", "")
 #     if user_input:
 #         # Convert the user input into the format expected by the chatbot model
 #         conversation = [{"prompt": user_input, "max_length": 100}]
-        
 #         # Get response from the chatbot model
 #         bot_response = chatbot_model(conversation)[0]["generated_text"]
-        
 #         # Display the bot response
 #         st.text_area("Bot:", value=bot_response, height=200)
         
@@ -230,3 +225,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
