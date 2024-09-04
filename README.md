@@ -1,6 +1,6 @@
 # Online Learning Platform
 
-Welcome to the Online Learning Platform! This platform is designed to enhance the learning experience by providing various features including a course recommendation system, a chatbot to assist with studies, a performance prediction feature, and exploratory data analysis (EDA) for various student data.
+Welcome to the Online Learning Platform!
 
 ## Features -
 ### 1. Course Recommendation System
