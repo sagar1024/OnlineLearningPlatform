@@ -1,6 +1,6 @@
 # Online Learning Platform
 
-Welcome to the Online Learning Platform!
+Welcome to my Online Learning Platform!
 
 ## Features -
 ### 1. Course Recommendation System
