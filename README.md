@@ -3,10 +3,10 @@
 Welcome to my Online Learning Platform!
 
 ## Features -
-### 1. Course Recommendation System
-### 2. Chatbot
-### 3. Performance Prediction
-### 4. Exploratory Data Analysis (EDA)
+#### 1. Course Recommendation System
+#### 2. Chatbot
+#### 3. Performance Prediction
+#### 4. Exploratory Data Analysis (EDA)
 
 ## Technologies Used
 Streamlit: The web application framework used for building the platform.
