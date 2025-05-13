@@ -1,5 +1,6 @@
 # Online Learning Platform
 
+
 ## Features -
 
 ##### 1. Course Recommendation System
@@ -9,6 +10,7 @@
 ##### 3. Academic Performance Prediction
 
 ##### 4. Exploratory Data Analysis (EDA) on student data
+
 
 ## Technologies Used
 
@@ -20,3 +22,7 @@
 
 ##### Pandas & Matplotlib: For data analysis and visualization.
 
+
+## Authors and Contributors -
+
+##### Developed by Sagar Gurung
