@@ -1,6 +1,6 @@
-## Online Learning Platform
+# Online Learning Platform
 
-### Features -
+## Features -
 
 ##### 1. Course Recommendation System
 
@@ -10,7 +10,7 @@
 
 ##### 4. Exploratory Data Analysis (EDA) on student data
 
-### Technologies Used
+## Technologies Used
 
 ##### Streamlit: Web application framework used for building the platform.
 
@@ -19,3 +19,4 @@
 ##### Natural Language Processing (NLP): For chatbot development.
 
 ##### Pandas & Matplotlib: For data analysis and visualization.
+
